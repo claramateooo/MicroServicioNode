@@ -30,7 +30,8 @@ app.post("/analyze", async (req, res) => {
     res.status(500).json({ error: "Error analyzing URL", details: err.message });
   }
 });
-
-app.listen(3000, () => {
-  console.log("🔎 Axe server running at http://localhost:3000");
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Axe server running on port ${PORT}`);
 });
+
