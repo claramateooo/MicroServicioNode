@@ -1,0 +1,19 @@
+{
+  "name": "nodearbol",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axe-core": "^4.10.3",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "puppeteer": "^24.15.0"
+  }
+}
